@@ -27,7 +27,7 @@ public class Main {
             System.out.println("5. Devolver un libro");
             System.out.println("Q. Salir");
 
-            String opcion = sc.nextLine();
+            String opcion = sc.next();
 
             switch(opcion) {
                 case "1":
