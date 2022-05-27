@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class Biblioteca {
     private String name;
-    private ArrayList<Integer> catalogoLibros;
+    private ArrayList<String> catalogoLibros;
 
     public Biblioteca(String name) {
         this.name = name;
@@ -21,7 +21,7 @@ public class Biblioteca {
 
         int contador = 0;
 
-        while(it.next()) {
+        while(it.hasNext()) {
             System.out.println(contador + " --> " + it.hasNext());
             contador--;
         }
