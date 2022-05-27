@@ -22,7 +22,7 @@ public class Biblioteca {
         int contador = 0;
 
         while(it.hasNext()) {
-            System.out.println(contador + " --> " + it.hasNext());
+            System.out.println(contador + " --> " + it.next());
             contador--;
         }
     }
